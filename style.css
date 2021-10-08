@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    padding: 20px 0 0 75px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 20px;
+}
+
+.inp {
+    margin: 20px 0;
+    width: 200px;
+    height: 30px;
+    outline: none;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.error {
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
