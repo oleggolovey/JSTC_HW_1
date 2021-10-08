@@ -8,7 +8,7 @@ let queue;
 localStorage.length < 1 ? (queue = []) : (queue = JSON.parse(localStorage.getItem("queue")));
 
 const addOnPage = () => {
-    wordContainer.innerHTML = `<h3>${queue.join('; ')}</h3>`;
+    wordContainer.innerHTML = `<h3>${queue}</h3>`;
 }
 
 addOnPage();
